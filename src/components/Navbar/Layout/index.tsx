@@ -3,7 +3,7 @@ import { Logo } from "../Molecules/Logo"
 import { Nav } from "../Molecules/Nav"
 import { Root } from "../Organisms/Root"
 
-export const Header = () => {
+export const Navbar = () => {
     return (
         <Root>
             <Logo />

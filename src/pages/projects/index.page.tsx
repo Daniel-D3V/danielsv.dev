@@ -1,10 +1,10 @@
-import { Header } from "@/components/Header/Layout";
+import { Navbar } from "@/components/Navbar/Layout";
 import { ProjectsLayout } from "./@root/Layout";
 
 export default function Projects() {
     return (
         <>
-            <Header />
+            <Navbar />
             <ProjectsLayout />
         </>
     )
