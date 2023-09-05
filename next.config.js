@@ -4,7 +4,15 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['cdn.discordapp.com'],
-  }
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/home',
+        destination: '/',
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
