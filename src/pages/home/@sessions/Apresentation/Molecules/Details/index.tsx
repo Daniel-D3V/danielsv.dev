@@ -18,7 +18,7 @@ export const Details = () => {
                 <TypeAnimation className={styles.Title} style={grotesk.style} sequence={["I'm Daniel Silva", 5000, "Daniel Silva"]} repeat={Infinity} />
             </p>
             <p className={styles.SubTitle}>Full-stack Developer | CEO, Fundador Warp Store</p>
-            <p className={styles.Description}>👋 Olá, meu nome é Daniel. Atualmente completo mais de 5 anos no mercado de desenvolvimento.</p>
+            <p className={styles.Description}>👋 Olá, meu nome é Daniel. Atualmente completo mais de 4 anos no mercado de desenvolvimento.</p>
             <div className={styles.NetworkSocialList}>
                 <Link target='_blank' href="https://github.com/Daniel-D3V" className={styles.NetworkSocial}><FaGithub /></Link>
                 <Link target='_blank' href="https://yotube.com/daniel-d3v" className={styles.NetworkSocial}><FaYoutube /></Link>
