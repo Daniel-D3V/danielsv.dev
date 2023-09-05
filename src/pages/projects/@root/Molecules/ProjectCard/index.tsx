@@ -26,7 +26,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
             <div className={styles.ProjectCard}>
                 <div className={styles.Image} style={{ backgroundImage: `url(${props.image})` }} />
                 <div className={styles.Visit}>
-                    <span><code>console.log</code>("O site ainda está em desenvolvimento e isto ainda não está pronto :(")</span>
+                    <span><code>console.log</code>{"('"}O site ainda está em desenvolvimento e isto ainda não está pronto!{"')"}</span>
                 </div>
                 <p className={styles.Title} style={SchibstedGrotesk.style}>{props.title}</p>
                 <p className={styles.Description}>{props.description}</p>

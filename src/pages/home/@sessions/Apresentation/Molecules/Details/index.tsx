@@ -17,11 +17,11 @@ export const Details = () => {
             <p className={styles.SubTitle}>Full-stack Developer | CEO, Fundador Warp Store</p>
             <p className={styles.Description}>👋 Olá, meu nome é Daniel. Atualmente completo mais de 5 anos no mercado de desenvolvimento.</p>
             <div className={styles.NetworkSocialList}>
-                <Link href="/" className={styles.NetworkSocial}><FaGithub /></Link>
-                <Link href="/" className={styles.NetworkSocial}><FaYoutube /></Link>
-                <Link href="/" className={styles.NetworkSocial}><FaInstagram /></Link>
-                <Link href="/" className={styles.NetworkSocial}><FaLinkedin /></Link>
-                <Link href="/" className={styles.NetworkSocial}><BiLogoDiscord /></Link>
+                <Link href="https://github.com/Daniel-D3V" className={styles.NetworkSocial}><FaGithub /></Link>
+                <Link href="https://yotube.com/daniel-d3v" className={styles.NetworkSocial}><FaYoutube /></Link>
+                <Link href="https://instagram.com/daniel.d3v" className={styles.NetworkSocial}><FaInstagram /></Link>
+                <Link href="https://www.linkedin.com/in/daniel-silva-b6b983241/" className={styles.NetworkSocial}><FaLinkedin /></Link>
+                <Link href="https://discord.com/users/1135256865077481553" className={styles.NetworkSocial}><BiLogoDiscord /></Link>
             </div>
         </div>
     )
