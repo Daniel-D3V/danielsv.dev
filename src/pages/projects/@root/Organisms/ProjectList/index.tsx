@@ -27,6 +27,13 @@ export const ProjectList = () => {
             image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1148516765853286420/image.png',
             link: 'https://',
             languages: ['TYPESCRIPT', 'NODEJS', 'NEXTJS']
+        },
+        {
+            title: 'HWID Spoofer',
+            description: 'Um painel spoofer que remove banimentos globais realizados no HWID (HARDWARE INDENTIFICATION), praticamente ele camufla o banimento',
+            image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1148547708819349535/image.png',
+            link: 'https://',
+            languages: ['CSHARP'],
         }
     ];
 

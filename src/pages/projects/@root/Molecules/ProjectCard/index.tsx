@@ -1,11 +1,11 @@
 import { Schibsted_Grotesk } from 'next/font/google';
 import styles from './styles.module.sass';
 import { BiLogoJavascript, BiLogoTypescript } from 'react-icons/bi';
-import { SiNextdotjs } from 'react-icons/si';
+import { SiCsharp, SiNextdotjs } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import classNames from 'classnames';
 
-type Languages = "TYPESCRIPT" | "JAVASCRIPT" | "NODEJS" | 'NEXTJS'
+type Languages = "TYPESCRIPT" | "JAVASCRIPT" | "NODEJS" | 'NEXTJS' | 'CSHARP'
 
 export type ProjectCardProps = {
     title: string,
@@ -48,6 +48,10 @@ export const ProjectCard = (props: ProjectCardProps) => {
 
                                 {language === "NEXTJS" && (
                                     <span title='NextJS' key={index} className={classNames(styles.Language, styles.Language_NextJS)}><SiNextdotjs /></span>
+                                )}
+
+                                {language === "CSHARP" && (
+                                    <span title='Csharp' key={index} className={classNames(styles.Language, styles.Language_Csharp)}><SiCsharp /></span>
                                 )}
                             </>
                         )
