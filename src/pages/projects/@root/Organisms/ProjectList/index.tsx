@@ -9,7 +9,7 @@ export const ProjectList = () => {
     const projectCards: ProjectCardProps[] = [
         {
             title: 'Warp Store',
-            description: 'Plataforma de vendas automáticas e intermediadora de vendas de jogos onlines.',
+            description: 'Plataforma de vendas automáticas e intermediadora de vendas de jogos online, com customização e um sistema único e inovador.',
             image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1146369372428967976/Main_1.gif',
             link: 'https://',
             languages: ['TYPESCRIPT', 'NODEJS', 'NEXTJS']
@@ -23,7 +23,7 @@ export const ProjectList = () => {
         },
         {
             title: 'Track Master',
-            description: 'Website para rastreio de encomendas de objetos dos correios',
+            description: 'Website para rastreio de encomendas de objetos dos correios, que permite você rastrear encomendas em tempo real',
             image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1148516765853286420/image.png',
             link: 'https://',
             languages: ['TYPESCRIPT', 'NODEJS', 'NEXTJS']
