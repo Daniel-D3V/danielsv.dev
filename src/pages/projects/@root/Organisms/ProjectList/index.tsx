@@ -23,7 +23,7 @@ export const ProjectList = () => {
         },
         {
             title: 'Track Master',
-            description: 'Website para rastreio de encomendas de objetos dos correios, que permite você rastrear encomendas em tempo real',
+            description: 'Website para rastreio de encomendas de objetos dos correios, que permite você rastrear encomendas em tempo real, reutilizando API Correios.',
             image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1148516765853286420/image.png',
             link: 'https://',
             languages: ['TYPESCRIPT', 'NODEJS', 'NEXTJS']
