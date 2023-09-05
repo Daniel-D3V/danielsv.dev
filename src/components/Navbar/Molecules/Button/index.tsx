@@ -1,5 +1,6 @@
 import { Poppins } from 'next/font/google'
 import styles from './styles.module.sass'
+import Link from 'next/link'
 
 const poppins = Poppins({
     subsets: ['latin'],
@@ -8,6 +9,6 @@ const poppins = Poppins({
 
 export const Button = () => {
     return (
-        <button className={styles.Button} style={poppins.style}>Contatar</button>
+        <Link href="/contact" className={styles.Button} style={poppins.style}>Contatar</Link>
     )
 }

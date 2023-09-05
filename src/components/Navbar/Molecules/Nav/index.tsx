@@ -10,9 +10,9 @@ export const Nav = () => {
 
     return (
         <nav className={styles.Nav}>
-            <Link href="/#about" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/home" })}>Sobre</Link>
+            <Link href="/" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/home" })}>Sobre</Link>
             <Link href="/projects" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/projects" })}>Projetos</Link>
-            <Link href="/#about" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/contact" })}>Contato</Link>
+            <Link href="/contact" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/contact" })}>Contato</Link>
         </nav >
     )
 }
