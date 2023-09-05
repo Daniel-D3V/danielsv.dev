@@ -15,6 +15,13 @@ export const ProjectList = () => {
             languages: ['TYPESCRIPT', 'NODEJS', 'NEXTJS']
         },
         {
+            title: 'Leinad Shop',
+            description: 'A Leinad Shop é uma plataforma de e-commerce, com um sistema de vendas de produtos para o mercado de jogos como: Contas FiveM, Contas etc...',
+            image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1148546555452862495/image.png',
+            languages: ['TYPESCRIPT', 'NEXTJS'],
+            link: 'https://'
+        },
+        {
             title: 'Track Master',
             description: 'Website para rastreio de encomendas de objetos dos correios',
             image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1148516765853286420/image.png',
