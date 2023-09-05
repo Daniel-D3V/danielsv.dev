@@ -1,13 +1,18 @@
 import Link from 'next/link'
 import styles from './styles.module.sass'
+import { useRouter } from 'next/router'
+import classNames from 'classnames';
 
 export const Nav = () => {
 
+    const { pathname } = useRouter();
+
+
     return (
         <nav className={styles.Nav}>
-            <Link href="/#about" className={styles.Link}>Projetos</Link>
-            <Link href="/#about" className={styles.Link}>Sobre</Link>
-            <Link href="/#about" className={styles.Link}>Contato</Link>
-        </nav>
+            <Link href="/#about" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/home" })}>Sobre</Link>
+            <Link href="/projects" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/projects" })}>Projetos</Link>
+            <Link href="/#about" className={classNames(styles.Link, { [styles.Link_Active]: pathname === "/contact" })}>Contato</Link>
+        </nav >
     )
 }
