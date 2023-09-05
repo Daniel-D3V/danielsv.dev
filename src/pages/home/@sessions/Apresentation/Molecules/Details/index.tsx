@@ -14,8 +14,8 @@ const grotesk = Schibsted_Grotesk({
 export const Details = () => {
     return (
         <div className={classNames(styles.Details, 'col-md-6')}>
-            <p className={styles.Title} style={grotesk.style}>
-                <TypeAnimation sequence={["I'm Daniel Silva", 5000, "Daniel Silva"]} />
+            <p>
+                <TypeAnimation className={styles.Title} style={grotesk.style} sequence={["I'm Daniel Silva", 5000, "Daniel Silva"]} repeat={Infinity} />
             </p>
             <p className={styles.SubTitle}>Full-stack Developer | CEO, Fundador Warp Store</p>
             <p className={styles.Description}>👋 Olá, meu nome é Daniel. Atualmente completo mais de 5 anos no mercado de desenvolvimento.</p>
