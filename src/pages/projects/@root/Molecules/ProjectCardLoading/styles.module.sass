@@ -1,0 +1,59 @@
+.ProjectCard
+    display: flex
+    flex-direction: column
+    margin-bottom: 2rem
+
+    .Image
+        position: relative
+        max-width: 100%
+        width: 100%
+        height: 180px
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center center
+        border-radius: 8px
+        margin-bottom: 1rem
+        background: var(--background-secondary)
+        z-index: -1
+        overflow: hidden
+
+        &::before
+            content: ""
+            position: absolute
+            width: 150px
+            height: 300px
+            background-color: #1c1b1f
+            box-shadow: 0 0 30px #1c1b1f
+            filter: blur(1px)
+            opacity: 0.9
+            top: -100px
+            z-index: -1
+            transition: all .7s ease
+            animation: reflect-image 1s ease infinite
+
+        @keyframes reflect-image
+            from
+                transform: rotate(-20deg) translateX(-190px)
+
+            to
+                transform: rotate(-20deg) translate(340px, 70px)
+
+    .Title
+        position: relative
+        background: var(--background-secondary)
+        width: 100%
+        height: 15px
+        margin-bottom: 5px
+
+    .Description
+        position: relative
+        background: var(--background-secondary)
+        width: 100%
+        height: 9px
+
+    .Description2
+        position: relative
+        margin-top: 3px
+        background: var(--background-secondary)
+        width: 50%
+        height: 9px

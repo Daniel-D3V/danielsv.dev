@@ -1,6 +1,10 @@
+import { useEffect, useState } from "react";
 import { ProjectCard, ProjectCardProps } from "../../Molecules/ProjectCard"
+import { ProjectCardLoading } from "../../Molecules/ProjectCardLoading";
 
 export const ProjectList = () => {
+
+    const [loading, setLoading] = useState(true)
 
     const projectCards: ProjectCardProps[] = [
         {
@@ -61,11 +65,25 @@ export const ProjectList = () => {
         },
     ];
 
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 2500);
+    }, [])
+
     return (
         <div className="row">
-            {projectCards.map((project, index) => (
-                <ProjectCard {...project} key={index} />
-            ))}
+            {loading && (<>
+                {" ".repeat(7).split(' ').map((_, index) => (
+                    <ProjectCardLoading key={index} />
+                ))}
+            </>)}
+
+            {!loading && (<>
+                {projectCards.map((project, index) => (
+                    <ProjectCard {...project} key={index} />
+                ))}
+            </>)}
         </div>
     )
 }
