@@ -3,6 +3,7 @@ import '@/styles/globals.sass'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
 import { Space_Grotesk } from 'next/font/google';
+import { ProgressBar } from '@/components/ProgressBar';
 
 const grotesk = Space_Grotesk({ subsets: ['latin'], weight: '400' });
 
@@ -16,6 +17,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           font-weight: ${grotesk.style.fontWeight};
         }
       `}</style>
+      <ProgressBar />
       <Component {...pageProps} />
     </>
   )
