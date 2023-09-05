@@ -8,10 +8,10 @@ type Props = {
 
 export const Root = (props: Props) => {
     return (
-        <header className={styles.Apresentation}>
+        <div className={styles.Apresentation}>
             <div className='container'>
                 <div className="row" {...props}></div>
             </div>
-        </header>
+        </div>
     )
 }
