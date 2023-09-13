@@ -23,7 +23,7 @@ export const Details = () => {
                 <Link target='_blank' href="https://github.com/Daniel-D3V" className={styles.NetworkSocial}><FaGithub /></Link>
                 <Link target='_blank' href="https://yotube.com/daniel-d3v" className={styles.NetworkSocial}><FaYoutube /></Link>
                 <Link target='_blank' href="https://instagram.com/daniel.d3v" className={styles.NetworkSocial}><FaInstagram /></Link>
-                <Link target='_blank' href="https://www.linkedin.com/in/daniel-silva-b6b983241/" className={styles.NetworkSocial}><FaLinkedin /></Link>
+                <Link target='_blank' href="https://www.linkedin.com/in/daniel-rabbit/" className={styles.NetworkSocial}><FaLinkedin /></Link>
                 <Link target='_blank' href="https://discord.com/users/1135256865077481553" className={styles.NetworkSocial}><BiLogoDiscord /></Link>
             </div>
         </div>
