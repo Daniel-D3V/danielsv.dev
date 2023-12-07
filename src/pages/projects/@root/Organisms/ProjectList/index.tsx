@@ -8,10 +8,17 @@ export const ProjectList = () => {
 
     const projectCards: ProjectCardProps[] = [
         {
+            title: 'Mod Store',
+            description: 'Site Landing Page para a apresentação de produtos de modelagem para o mta.',
+            image: 'https://cdn.discordapp.com/attachments/1180471459202748427/1182286365774315570/image.png',
+            link: 'https://modstore.vercel.app',
+            languages: ['TYPESCRIPT', 'NODEJS', 'NEXTJS']
+        },
+        {
             title: 'Warp Store',
             description: 'Plataforma de vendas automáticas e intermediadora de vendas de jogos online, com customização e um sistema único e inovador.',
-            image: 'https://cdn.discordapp.com/attachments/1146267369740714076/1146369372428967976/Main_1.gif',
-            link: 'https://',
+            image: 'https://cdn.discordapp.com/attachments/1180471459202748427/1182286915928592425/image.png',
+            link: 'https://warpstore.app',
             languages: ['TYPESCRIPT', 'NODEJS', 'NEXTJS']
         },
         {
