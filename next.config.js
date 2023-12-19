@@ -8,7 +8,6 @@ const nextConfig = {
       }
     ]
   },
-  pageExtensions: ['page.tsx', 'page.ts'],
   reactStrictMode: true,
   images: {
     domains: ['cdn.discordapp.com'],
