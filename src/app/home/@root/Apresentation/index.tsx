@@ -10,6 +10,7 @@ export const Apresentation = () => {
                     <p className={styles.SubTitle}>Full-stack Developer | CEO, Fundador Warp Store</p>
                     <p className={styles.Description}>👋 Olá, meu nome é Daniel. Atualmente completo mais de 3 anos e meio no mercado de desenvolvimento.</p>
                 </div>
+                <div className='w-full'></div>
             </Container>
         </section>
     )

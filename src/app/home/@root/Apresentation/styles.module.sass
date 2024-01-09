@@ -1,5 +1,17 @@
 .Apresentation
-    @apply w-full flex flex-col items-start justify-center
+    @apply w-full flex items-center justify-center min-h-[100vh]
 
     .Container
         @apply w-full flex items-center justify-between gap-2
+
+        .Details
+            @apply w-full flex flex-col items-start justify-center
+
+            .Title
+                @apply text-primary text-4xl font-medium mb-2
+
+            .SubTitle
+                @apply text-dark-color dark:text-light-color font-medium mb-2
+
+            .Description
+                @apply text-dark-color dark:text-light-color font-medium
